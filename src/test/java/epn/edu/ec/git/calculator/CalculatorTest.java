@@ -30,6 +30,12 @@ public class CalculatorTest {
         assertEquals(7, c.subtraction(10, 3));
     }
 
+    @Test
+    public void given_two_integers_when_multiplication_then_ok(){
+        System.out.println("Test NUEVO");
+        assertEquals(625,c.multiplication(25, 25));
+    }
+
     @Test(expected = ArithmeticException.class)
     public void given_two_integers_when_division_then_exception() {
         System.out.println("Test 3");

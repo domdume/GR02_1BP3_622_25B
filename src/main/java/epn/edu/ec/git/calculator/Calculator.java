@@ -14,6 +14,8 @@ public class Calculator {
         return a / b;
     }
 
+    public int multiplication(int a, int b) {return a * b;}
+
     public void timeout(int time) {
         try {
             Thread.sleep(time);
@@ -29,4 +31,5 @@ public class Calculator {
     public void setAnswer(int answer) {
         this.answer = answer;
     }
+
 }

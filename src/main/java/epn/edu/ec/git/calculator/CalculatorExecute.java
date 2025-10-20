@@ -11,5 +11,8 @@ public class CalculatorExecute {
         int subtraction=c.subtraction(9,5);
         System.out.println("c.substraction (9,5) = "+subtraction);
 
+        System.out.println("\n== ¡¡ Este es un nuevo cambio !! ==");
+        int multiplication=c.multiplication(25,25);
+        System.out.println("MULTIPLICAR 25 * 25 = "+multiplication);
     }
 }
